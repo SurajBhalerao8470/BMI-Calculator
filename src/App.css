@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/free-vector/training-home-concept_23-2148488785.jpg?size=626&ext=jpg&ga=GA1.1.475564973.1701016530&semt=sph");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #2a353f;
+  background-position:0dvb;
+}
+.bmi-calculator {
+  display: flex;
+  justify-content: center;
+  border: 1px gray solid;
+  width: 400px;
+  height: 430px;
+  padding: 50px;
+  margin-left: 600px;
+  margin-top: 100px;
+  background-color: #2a353f;
+  border: 1px grey solid;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+input {
+  width: 350px;
+  height: 40px;
+  background-color: rgba(245, 245, 245, 0.856);
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#btn {
+  margin-top: 25px;
+  width: 350px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#weight {
+  margin-bottom: 5px;
+  color: whitesmoke;
+}
+#height {
+    margin-top: 5px;
+  margin-bottom: 5px;
+  color: whitesmoke;
+}
+#heading {
+  padding: 0px;
+  text-align: center;
+  margin-top: -25px;
+  color: orangered;
+  color: white;
+  font-weight: bold;
+}
+#bmi-num {
+  margin-top: 15px;
+  color: white;
+}
+#status {
+  margin: 5px;
+  color: white;
+}
+#reset-btn {
+  margin-top: 25px;
+  width: 350px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background-color:crimson;
+  border: none;
+}
+#reset-btn:hover{
+    opacity: 0.8;
+}
+  

@@ -43,7 +43,7 @@ function App() {
     <>
       <div className="bmi-calculator">
         <div>
-          <h1 id="heading">BMI CALCULATOR</h1>
+          <h1 id="heading">BMI CALCULATOR App</h1>
           <p id="weight">Weight(kg) :</p>
           <input
             type="number"
